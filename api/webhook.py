@@ -41,7 +41,7 @@ def del_user_code(user_id):
 CITY_GROUPS = {
     "🌍 Top Liquidity":   ["London", "Wellington"],
     "🇺🇸 United States": ["Atlanta", "New York", "Miami", "Chicago", "Dallas", "Seattle"],
-    "🌐 International":   ["Seoul", "Buenos Aires", "Shenzhen"],
+    "🌐 International":   ["Seoul", "Buenos Aires", "Shenzhen", "Warsaw"],
 }
 CITIES = [city for group in CITY_GROUPS.values() for city in group]
 
@@ -57,6 +57,7 @@ CITY_TIMEZONES = {
     "Seoul":        "Asia/Seoul",
     "Buenos Aires": "America/Argentina/Buenos_Aires",
     "Shenzhen":     "Asia/Shanghai",
+    "Warsaw":       "Europe/Warsaw",
 }
 
 CITY_API_NAMES = {
